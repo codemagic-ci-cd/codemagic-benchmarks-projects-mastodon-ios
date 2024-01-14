@@ -1,7 +1,7 @@
 definitions:
   workflow: &base_workflow
     environment:
-      xcode: 14.2
+      xcode: latest
     triggering:
       events:
         - push
@@ -34,8 +34,8 @@ workflows:
     instance_type: mac_mini_m1
   mastodon-ios-mac-pro:
     <<: *base_workflow
-    name: Mastodon iOS Build Workflow Mac Pro
-    instance_type: mac_pro
+    name: Mastodon iOS Build Workflow M2 Mac Mini
+    instance_type: mac_mini_m2
   mastodon-ios-m2:
     <<: *base_workflow
     name: Mastodon iOS Build Workflow M2 Mac Mini
