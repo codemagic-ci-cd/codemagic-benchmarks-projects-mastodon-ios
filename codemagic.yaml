@@ -1,7 +1,7 @@
 definitions:
   workflow: &base_workflow
     environment:
-      xcode: latest
+      xcode: 14.2
     triggering:
       events:
         - push
