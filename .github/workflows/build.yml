@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build and analyse default scheme using xcodebuild command
-    runs-on: macos-latest sudo xcode-select -s '/Applications/Xcode_15.2.app/Contents/Developer'
+    runs-on: macos-latest sudo xcode-select -s '/Applications/Xcode_15.1.app/Contents/Developer'
     steps:  
       - name: Checkout
         uses: actions/checkout@v3
