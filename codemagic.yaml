@@ -1,7 +1,7 @@
 definitions:
   workflow: &base_workflow
     environment:
-      xcode: latest
+      xcode: edge
     triggering:
       events:
         - push
