@@ -31,7 +31,7 @@ workflows:
   mastodon-ios-m1:
     <<: *base_workflow
     name: Mastodon iOS Build Workflow M1 Mac Mini
-    instance_type: mac_mini_m1
+    # instance_type: mac_mini_m1
   mastodon-ios-m2:
     <<: *base_workflow
     name: Mastodon iOS Build Workflow M2 Mac Mini
