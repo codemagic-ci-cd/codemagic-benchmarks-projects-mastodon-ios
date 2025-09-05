@@ -1,6 +1,5 @@
 definitions:
   workflow: &base_workflow
-    environment:
     triggering:
       events:
         - push
