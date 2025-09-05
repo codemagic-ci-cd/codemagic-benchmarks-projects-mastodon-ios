@@ -35,9 +35,6 @@ workflows:
   mastodon-ios-m4-studio:
     <<: *base_workflow
     name: Mastodon iOS Build Workflow M4 Studio Max
-    cache:
-      cache_paths:
-        - $HOME/Library/Caches/CocoaPod
   mastodon-ios-m4:
     <<: *base_workflow
     name: Mastodon iOS Build Workflow M4 Mac Mini
